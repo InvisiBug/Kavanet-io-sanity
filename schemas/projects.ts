@@ -10,6 +10,32 @@ const metaData = [
     },
   },
   {
+    title: "Tags",
+    name: "tags",
+    type: "string",
+    options: {
+      list: [
+        { title: "Glowy", value: "glowy" },
+        { title: "LEDs", value: "LEDs" },
+      ],
+    },
+  },
+  {
+    name: "thumnail",
+    title: "Thumnail",
+    type: "image",
+    fields: [
+      {
+        type: "text",
+        name: "alt",
+        title: "Description",
+      },
+    ],
+    options: {
+      hotspot: true,
+    },
+  },
+  {
     name: "coverImage",
     title: "Cover Image",
     type: "image",
